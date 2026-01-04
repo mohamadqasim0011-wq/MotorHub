@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Cars | Cars Hub</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../images/logo.png" alt="Motor Hub Logo" class="logo-img"> 
+            <span>Motor Hub</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="buy.html" class="active">Buy</a></li>
+            <li><a href="sell.html">Sell</a></li>
+            <li><a href="inspection.html">Inspection</a></li>
+            <li><a href="meet team.html">Team</a></li>
+            <li><a href="post car add.html" >Post Ad</a></li>
+        </ul>
+        
+    </nav>
+</header>
+
+    <section class="buy-header">
+        <h1>Buy Cars</h1>
+        <p>Find your dream car from thousands of verified listings</p>
+    </section>
+
+    <div class="search-container">
+        <h3>Find Your Perfect Car</h3>
+        <div class="search-box">
+            <select id="make"><option>Select Make</option></select>
+            <select id="model"><option>Select Model</option></select>
+            <select id="city"><option>Select City</option></select>
+            <button class="search-btn" onclick="searchCars()">Search Cars</button>
+        </div>
+    </div>
+
+    <section class="available-cars">
+        <h2>Available Cars for Sale</h2>
+        
+        <div class="car-item-horizontal">
+            <div class="car-img-box">
+                <img src="../images/image7.jpg" alt="Toyota Corolla">
+                <span class="verify-tag">Verified</span>
+            </div>
+            <div class="car-details-main">
+                <div class="car-title-row">
+                    <h3>Toyota Corolla GLI 2020</h3>
+                    <span class="horizontal-price">PKR 4,200,000</span>
+                </div>
+                <div class="car-meta">
+                    <span>📅 2020</span> <span>⏱️ 35,000 km</span> <span>📍 Lahore</span>
+                </div>
+                <div class="car-actions">
+                    <button class="contact-btn">Contact Seller</button>
+                    <button class="details-outline">View Details</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="car-item-horizontal">
+            <div class="car-img-box">
+                <img src="../images/image8.jpg" alt="Toyota Corolla">
+                <span class="verify-tag">Verified</span>
+            </div>
+            <div class="car-details-main">
+                <div class="car-title-row">
+                    <h3>Hundayi Sonata 2023</h3>
+                    <span class="horizontal-price">PKR 6,200,000</span>
+                </div>
+                <div class="car-meta">
+                    <span>📅 2023</span> <span>⏱️ 37,000 km</span> <span>📍 Gujranwala</span>
+                </div>
+                <div class="car-actions">
+                    <button class="contact-btn">Contact Seller</button>
+                    <button class="details-outline">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="installments">
+        <div class="table-card">
+            <h2 class="red-title">Flexible Installment Plans</h2>
+            <p>Buy your dream car with our easy 36-month installment plans. Only 20% down payment required!</p>
+            
+            <table class="installment-table">
+                <thead>
+                    <tr>
+                        <th>Car Model</th>
+                        <th>Total Price</th>
+                        <th>Down Payment (20%)</th>
+                        <th>Monthly Installment (36 Months)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Toyota Corolla GLI 2020</td>
+                        <td>PKR 4,200,000</td>
+                        <td>PKR 840,000</td>
+                        <td class="red-price">PKR 93,333</td>
+                    </tr>
+                    <tr>
+                        <td>Honda Civic VTi Oriel 2019</td>
+                        <td>PKR 5,800,000</td>
+                        <td>PKR 1,160,000</td>
+                        <td class="red-price">PKR 128,889</td>
+                    </tr>
+                    <tr>
+    <td>Honda Civic RS 2022</td>
+    <td>PKR 8,500,000</td>
+    <td>PKR 1,700,000</td>
+    <td class="red-text">PKR 188,889</td>
+</tr>
+
+<tr>
+    <td>Suzuki Swift 2023</td>
+    <td>PKR 4,800,000</td>
+    <td>PKR 960,000</td>
+    <td class="red-text">PKR 106,667</td>
+</tr>
+
+<tr>
+    <td>KIA Sportage 2021</td>
+    <td>PKR 7,200,000</td>
+    <td>PKR 1,440,000</td>
+    <td class="red-text">PKR 160,000</td>
+</tr>
+
+<tr>
+    <td>Toyota Fortuner Legender 2023</td>
+    <td>PKR 18,500,000</td>
+    <td>PKR 3,700,000</td>
+    <td class="red-text">PKR 411,111</td>
+</tr>
+
+<tr>
+    <td>Honda City 1.2L CVT 2022</td>
+    <td>PKR 4,600,000</td>
+    <td>PKR 920,000</td>
+    <td class="red-text">PKR 102,222</td>
+</tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="red-text">Cars Hub</h3>
+                <p>Pakistan's #1 automotive marketplace. Your trusted partner in buying and selling vehicles.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>→ Home</li>
+                    <li>→ Buy Cars</li>
+                    <li>→ Inspection</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>📧 info@carshub.com</p>
+                <p>📞 042-111-123-456</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cars Hub. All rights reserved. | Privacy Policy | Terms & Conditions</p>
+        </div>
+    </footer>
+    <script src="../js/script2.js"></script>
+</body>
+</html>
