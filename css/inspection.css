@@ -172,11 +172,7 @@ header {
     background-color: #8e0303;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .about-card { padding: 30px; }
-    .red-text { font-size: 1.8rem; }
-}
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
