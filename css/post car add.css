@@ -47,6 +47,7 @@ header {
     display: flex;
     gap: 25px;
 }
+
 .nav-links a {
     text-decoration: none;
     color: #555;
@@ -129,6 +130,7 @@ input:focus {
     transition: background 0.3s, transform 0.2s;
     margin-top: 10px;
 }
+
 .submit-btn:hover {
     background-color: #9a1616;
     box-shadow: 0 4px 12px rgba(183, 28, 28, 0.3);
@@ -174,3 +176,4 @@ input:focus {
     font-size: 13px;
     opacity: 0.6;
 }
+
