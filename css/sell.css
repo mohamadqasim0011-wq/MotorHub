@@ -77,3 +77,77 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
+
+
+/* ==========================================================================
+   SELL PAGE HERO SECTION
+   ========================================================================== */
+.sell-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button-large {
+    background: var(--primary-red);
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s;
+}
+
+.cta-button-large:hover {
+    background: #8e0303;
+    transform: scale(1.05);
+}
+
+/* ==========================================================================
+   FEATURES GRID (Why Sell)
+   ========================================================================== */
+.container {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.bg-light {
+    max-width: 100%;
+    background-color: var(--light-bg);
+    padding: 80px 20px;
+    margin: 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: var(--dark-grey);
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
